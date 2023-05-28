@@ -42,9 +42,17 @@ fun main (){
     println("- Ziel:            ${String.format("%-22s", ziel)}-")
     println("- Vegetarisch:     ${String.format("%-22s", vegetarisch)}-")
     println("------------------------------------------")
-//  println("- Ziel:            $ziel                -")        unterschied zum String.format Befehl damit
-//  println("- Vegetarisch:     $vegetarisch                    -") die Schlußstriche untereinander stehen
-              
+
+/*
+    println("- Nachname:        $nachname                 -") //unterschied zum String.format Befehl damit
+    println("- Vorname:         $vorname               -")    //die Schlußstriche untereinander stehen
+    println("- Email:           $email                 -")    //${String.format("%-22s", email)}-")
+    println("- Telefonnummer:   $telefon                  -")
+    println("- Geburtsjahr:     $geburtsjahr                  -")
+    println("- Ziel:            $ziel                -")
+    println("- Vegetarisch:     $vegetarisch                    -")
+    println()
+*/
 
 }
 
