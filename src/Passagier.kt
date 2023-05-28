@@ -19,8 +19,8 @@ fun main (){
     var telefon : String = readln()
 
     println("Bitte nenne mir dein Geburtsjahr")
-    val geburtsjahr : String = readln()
-
+    val geburtsjahr : Int = readln().toInt()  // Falls man später etwas überprüfen muß,
+                                              // z.B darf derjenige Erwachsenenfilme anschauen
     println("Soweit so gut, wohin möchtest du den Fliegen?")
     var ziel : String = readln()
 
