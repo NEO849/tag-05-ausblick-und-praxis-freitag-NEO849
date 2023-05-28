@@ -1,34 +1,32 @@
 fun main() {
-    println("Willkommen! Bitte geben Sie die folgenden Informationen ein:")
 
-    print("Name: ")
-    val name = readLine()
 
-    print("Vorname: ")
-    val vorname = readLine()
+    println("Hallo!")
+    println("Um deinen Kontostand zu berechnen,")
+    println("gib deine aktuellen Ausgaben ein!")
+    println()
+    println()
+//    println("Wie hoch ist ihr Kontostand?")
+//    var kontostand = readln().toInt()
 
-    print("E-Mail: ")
-    val email = readLine()
+    var kontostand  = 650
 
-    print("Telefonnummer: ")
-    val telefonnummer = readLine()
+    println("Wieviel kostet ein Ticket?")
+    var einzelticket = readln().toInt()
 
-    print("Geburtsjahr: ")
-    val geburtsjahr = readLine()?.toIntOrNull()
+    println("Wieviele Passagiere?")
+    var anzahlPassagiere = readln().toInt()
+    var gesamtpreis = einzelticket * anzahlPassagiere
+    var neuerKontostand = kontostand - gesamtpreis
 
-    print("Ziel: ")
-    val ziel = readLine()
+    println("Kontostand:        $kontostand €")
+    println("Einzelticket:      $einzelticket €")
+    println("Gesamtpreis:       $gesamtpreis €")
+    println("Neuer Kontostand:  $neuerKontostand €")
 
-    print("Vegetarisch (Ja/Nein): ")
-    val vegetarischInput = readLine()
+// hier bin ich stehen geblieben vor dem esses
+// weiter gehen tut es mit dein Ergebnis konnte so aussehen, also die println()
+// ausgaben
 
-    val vegetarisch = vegetarischInput?.equals("Ja", ignoreCase = true) ?: false
 
-    println("\nBoardingpass:")
-    println("Name: $vorname $name")
-    println("E-Mail: $email")
-    println("Telefonnummer: $telefonnummer")
-    println("Geburtsjahr: $geburtsjahr")
-    println("Ziel: $ziel")
-    println("Vegetarisch: ${if (vegetarisch) "Ja" else "Nein"}")
 }

@@ -42,8 +42,8 @@ fun main (){
     println("- Ziel:            ${String.format("%-22s", ziel)}-")
     println("- Vegetarisch:     ${String.format("%-22s", vegetarisch)}-")
     println("------------------------------------------")
-//  println("- Ziel:            $ziel                -")    unterschied zum String.format Befehl
-//  println("- Vegetarisch:     $vegetarisch                    -")
+//  println("- Ziel:            $ziel                -")        unterschied zum String.format Befehl damit
+//  println("- Vegetarisch:     $vegetarisch                    -") die Schlußstriche untereinander stehen
               
 
 }
