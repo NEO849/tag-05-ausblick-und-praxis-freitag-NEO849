@@ -17,13 +17,13 @@ fun main() {
     println("------------------------------------------------")
     println()
 
-    println("Wie hoch ist dein jetziger Kontostand?")   // 650€
+    println("Wie hoch ist dein jetziger Kontostand?")
     val kontostandAlt  = readln().toDouble()
 
-    println("Wieviel kostet ein Ticket?")   //125€
+    println("Wieviel kostet ein Ticket?")
     var einzelticket = readln().toDouble()
 
-    println("Wieviele Passagiere?") // 4
+    println("Wieviele Passagiere?")
     var anzahlPassagiere = readln().toInt()
     println()
 

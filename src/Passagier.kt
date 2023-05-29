@@ -4,6 +4,7 @@ fun main (){
     val emojiFlugzeug = "\u2708\uFE0F"
     val emojiLachen = "\uD83D\uDE42"
     val emojiHerzRot = "\u2764\uFE0F"
+    val emojiDaumenHoch = "\uD83D\uDC4D"
     val reset = "\u001B[0m"  //die farbe würde so ausschauen: val weis = "\u001B[37m"
     val rot = "\u001B[31m"   //systemtechnisch ist weis eingestellt
     val gruen = "\u001B[32m" //deshalb reset denke ich
@@ -41,8 +42,8 @@ fun main (){
     var vegetarisch : String = readln()
     println()
 
-    println("Geschafft $emojiLachen dein Boarding Pass ist nun fertig $emojiHerzRot")
-    println("ich werde ihn dir gleich Ausdrucken.")
+    println("Geschafft $emojiLachen dein Boarding Pass ist nun fertig $emojiDaumenHoch")
+    println("Ich werde ihn dir gleich Ausdrucken.")
     println("Lieber ${blau}$vorname$reset ich wünsche dir ganz viel Spaß und Erholung in ${blau}$ziel!$reset")
     println()
     println()
