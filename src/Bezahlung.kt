@@ -1,14 +1,13 @@
 fun main() {
 
-    val emojiLachen = "\uD83D\uDE42"
-    val emojiHerzRot = "\u2764\uFE0F"
+    val emojiLachen = "\uD83D\uDE42"    //Kotlin erkennt Emojis auch Direkt
+    val emojiHerzRot = "\u2764\uFE0F"   //Ich finde es so Cooler 😎
     val reset = "\u001B[0m"  //die farbe würde so ausschauen: val weis = "\u001B[37m"
     val rot = "\u001B[31m"   //systemtechnisch ist weis eingestellt
     val gruen = "\u001B[32m" //deshalb reset denke ich
     val gelb = "\u001B[33m"
     val blau = "\u001B[34m"
     val magenta = "\u001B[35m"
-
 
     println("------------------------------------------------")
     println("--${gruen}      $emojiLachen Hallo ${gelb}und $emojiHerzRot ${rot}Willkommen! $emojiLachen        $reset--")

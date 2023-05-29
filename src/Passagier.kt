@@ -1,8 +1,8 @@
 fun main (){
 
     println()
-    val emojiFlugzeug = "\u2708\uFE0F"
-    val emojiLachen = "\uD83D\uDE42"
+    val emojiFlugzeug = "\u2708\uFE0F" //Kotlin erkennt Emojis auch Direkt
+    val emojiLachen = "\uD83D\uDE42"   //Ich finde es so Cooler 😎
     val emojiHerzRot = "\u2764\uFE0F"
     val emojiDaumenHoch = "\uD83D\uDC4D"
     val reset = "\u001B[0m"  //die farbe würde so ausschauen: val weis = "\u001B[37m"
