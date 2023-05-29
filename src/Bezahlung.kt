@@ -18,17 +18,17 @@ fun main() {
     println()
 
     println("Wie hoch ist dein jetziger Kontostand?")   // 650€
-    var kontostandAlt  = readln().toInt()
+    val kontostandAlt  = readln().toDouble()
 
     println("Wieviel kostet ein Ticket?")   //125€
-    var einzelticket = readln().toInt()
+    var einzelticket = readln().toDouble()
 
     println("Wieviele Passagiere?") // 4
     var anzahlPassagiere = readln().toInt()
     println()
 
     var gesamtpreis = einzelticket * anzahlPassagiere
-    var kontostand = kontostandAlt - gesamtpreis
+    val kontostand = kontostandAlt - gesamtpreis
     println()
     println()
 
