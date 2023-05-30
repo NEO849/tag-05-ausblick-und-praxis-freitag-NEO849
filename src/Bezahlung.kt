@@ -35,7 +35,7 @@ fun main() {
     println("${gelb}Dein Kontoauszug$reset")
     println()
     println("---------------------------------")
-    println("-- Kontostand:        ${String.format("%-7s", kontostand)}€ --")
+    println("-- Kontostand:        ${String.format("%-7s", kontostandAlt)}€ --")
     println("-- Einzelticket:      ${String.format("%-7s", einzelticket)}€ --")
     println("-- Gesamtpreis:       ${String.format("%-7s", gesamtpreis)}€ --")
     println("--${gruen} Neuer Kontostand:  ${String.format("%-7s", kontostand)}€ $reset--")

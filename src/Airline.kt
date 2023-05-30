@@ -7,7 +7,7 @@ fun main() {
     val kmMadridNachMailand = 1034.93
     val sitzplaetzeGesamt = 130
 
-    var kostenProTicket = 1000
+    var kostenProTicket = 125
     var anzahlDerFamilien = 25
     var koepfeProFamilie = 4
     var preisProKm = 16
